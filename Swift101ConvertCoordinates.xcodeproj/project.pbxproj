@@ -12,6 +12,7 @@
 		6C36806C214044D0009AD5C0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6C36806A214044D0009AD5C0 /* Main.storyboard */; };
 		6C36806E214044D1009AD5C0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6C36806D214044D1009AD5C0 /* Assets.xcassets */; };
 		6C368071214044D1009AD5C0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6C36806F214044D1009AD5C0 /* LaunchScreen.storyboard */; };
+		6C36807921404958009AD5C0 /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C36807821404958009AD5C0 /* LocationManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		6C36806D214044D1009AD5C0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6C368070214044D1009AD5C0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6C368072214044D1009AD5C0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6C36807821404958009AD5C0 /* LocationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +56,15 @@
 		6C368065214044D0009AD5C0 /* Swift101ConvertCoordinates */ = {
 			isa = PBXGroup;
 			children = (
+				6C36807A21404960009AD5C0 /* Supporting Files */,
+				6C36807821404958009AD5C0 /* LocationManager.swift */,
+			);
+			path = Swift101ConvertCoordinates;
+			sourceTree = "<group>";
+		};
+		6C36807A21404960009AD5C0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
 				6C368066214044D0009AD5C0 /* AppDelegate.swift */,
 				6C368068214044D0009AD5C0 /* ViewController.swift */,
 				6C36806A214044D0009AD5C0 /* Main.storyboard */,
@@ -61,7 +72,7 @@
 				6C36806F214044D1009AD5C0 /* LaunchScreen.storyboard */,
 				6C368072214044D1009AD5C0 /* Info.plist */,
 			);
-			path = Swift101ConvertCoordinates;
+			path = "Supporting Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,6 +148,7 @@
 			files = (
 				6C368069214044D0009AD5C0 /* ViewController.swift in Sources */,
 				6C368067214044D0009AD5C0 /* AppDelegate.swift in Sources */,
+				6C36807921404958009AD5C0 /* LocationManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -282,7 +294,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 69XUZ6HBUE;
-				INFOPLIST_FILE = Swift101ConvertCoordinates/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/Swift101ConvertCoordinates/Supporting Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -300,7 +312,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 69XUZ6HBUE;
-				INFOPLIST_FILE = Swift101ConvertCoordinates/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/Swift101ConvertCoordinates/Supporting Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
